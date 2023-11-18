@@ -44,7 +44,7 @@
   }
   #page>video{
       height: 100%;
-      width: 50%;
+      width: 100%;
       object-fit: cover;
       position: absolute;
       left: 50%;
@@ -876,4 +876,475 @@
 #page27>#lower>p{
     position: absolute;
     bottom: 5%;
+    left: 35%;
+}
+
+@media (max-width: 1100px){
+    #page>nav{
+        padding: 0px 20px;
+        height: 7vh;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    #page1>video{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    #page2>video{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+
+    #page3>button{
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px 35px;
+        border: 1px solid #000;
+        font-weight: 600;
+        background-color: #fff;
+        border-radius: 50px;
+        font-size: 2.8vw;
+    }
+
+    #page3-upper{
+        height: 25%;
+        width: 85%;
+        position: absolute;
+        z-index: 9;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page3-upper>img{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+
+    #page4>video{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+
+    #page5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 60vh;
+        width: 100vw;
+        justify-content: center;
+    }
+    .left5{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .left5>h1{
+        font-size: 6vw;
+        top: 10%;
+        text-align: center;
+    }
+    .right5{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding-left: 5vw;
+        text-align: center;
+    }
+    .right5>h3{
+        font-size: 2.9vw;
+        width: 90%;
+        color: #484848d7;
+        position: absolute;
+        bottom: 40%;
+    }
+    .right5>button{
+        padding: 20px 35px;
+        border: none;
+        background-color: #ff823d;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 50px;
+        font-size: 2.8vw;
+        margin-top: 1.5vw;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    #page6>h3{
+        margin-bottom: 3vw;
+        font-size: 4vw;
+    }
+    #page6>h1{
+        margin-bottom: 1.5vw;
+        font-size: 4vw;
+    }
+    #page6>p{
+        font-size: 2.8vw;
+        width: 60%;
+        font-weight: 700;
+        color: #545454c9;
+    }
+
+
+    #page8>h1{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+
+    #page9>h1{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+
+    #page10>h1{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+
+    #page11>h1{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+
+    #page12>h1{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+
+    #page13>h1{
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+
+
+    #page14{
+        display: flex;
+        flex-direction: column;
+    }
+    .left14{
+        height: 45%;
+        width: 55%;
+        position: relative;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+        background-size: cover;
+    }
+    .right14{
+        height: 45%;
+        width: 55%;
+        position: relative;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+        background-size: cover;
+    }
+
+    #center-page15>video{
+        height: 60%;
+        width: 60%;
+        object-fit: cover;
+        position: absolute;
+        left: 20%;
+    }
+
+
+    #page16>h2{
+        position: absolute;
+        width: 60%;
+        color: #434343c7;
+        font-weight: 600;
+        top: 5%;
+        font-size: 3vw;
+    }
+    #page16>img{
+        width: 60%;
+        position: absolute;
+        bottom: 35%;
+    }
+    #page16>button{
+        position: absolute;
+        bottom: 20%;
+        padding: 20px 35px;
+        font-size: 2.5vw;
+        border-radius: 50px;
+        background-color: #ff823d;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+    }
+
+
+    #page17>h4{
+        font-size: 5vw;
+        font-weight: 500;
+        margin-bottom: 4vw;
+    }
+    #page17>h1{
+        font-size: 6vw;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 4vw;
+    }
+    #page17>p{
+        font-size: 3vw;
+        font-weight: 500;
+        margin-bottom: 1.5vw;
+        color: #ffffff7c;
+        width: 60%;
+        text-align: center;
+    }
+
+
+    #page19{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        position: relative;
+        height: 30vh;
+        width: 100vw;
+        background-color: #000;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.4vw;
+    }
+    #page19>h5{
+        width: 60%;
+        font-size: 2.8vw;
+        font-weight: 500;
+    }
+
+
+    #page21>h1{
+        font-size: 4.5vw;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 3vw;
+        position: absolute;
+        bottom: 25%;
+    }
+    #page21>p{
+        font-size: 2.8vw;
+        width: 55%;
+        bottom: 0%;
+    }
+
+    #page22>h1{
+        font-size: 4.5vw;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 3vw;
+        color: #fff;
+        width: 50%;
+        position: absolute;
+        bottom: 25%;
+    }
+    #page22>p{
+        margin: 1vw;
+        font-size: 2.8vw;
+        width: 55%;
+        position: absolute;
+        bottom: 0%;
+    }
+
+
+    #page23>h1{
+        font-size: 4.5vw;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 3vw;
+        color: #fff;
+        width: 50%;
+        position: absolute;
+        bottom: 30%;
+    }
+    #page23>p{
+        margin: 1vw;
+        font-size: 2.8vw;
+        width: 55%;
+        position: absolute;
+        bottom: 0%;
+    }
+
+
+    #page24>h5{
+        font-size: 2.8vw;
+        margin-bottom: 1.5vw;
+    }
+    
+    #page24>h1{
+        font-size: 4.5vw;
+        width: 50%;
+        font-weight: 600;
+        line-height: 1;
+    }
+    #page24>p{
+        font-size: 2.8vw;
+        font-weight: 500;
+        margin-top: 4.5vw;
+        color: rgba(11, 11, 11, 0.486);
+        font-weight: 600;
+        width: 60%;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+    #page24>button{
+        padding: 20px 35px;
+        border: none;
+        background-color: rgba(252, 166, 80, 0.891);
+        border-radius: 50px;
+        font-size: 2.7vw;
+        position: absolute;
+        bottom: 10%;
+        font-weight: 500;
+    }
+    
+    #page24>img{
+        width: 15%;
+        margin-bottom: 4vw;
+        
+    }
+    
+
+    #page25{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    #page25>#center25{
+        position: relative;
+        height: 95%;
+        width: 90%;
+        background-color: #f5f5f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #page25>#center25>#left25{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 6vw;
+    }
+    
+    #page25>#center25>#right25{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #page25>#center25>#right25>img{
+        position: absolute;
+        bottom: 0%;
+        overflow: hidden;
+        width: 50%;
+    }
+    
+    #page25>#center25>#left25>h2{
+        font-size: 5vw;
+        width: 48%;
+    }
+    
+    #page25>#center25>#left25>p{
+        font-size: 3.4vw;
+        color: #656464c7;
+        font-weight: 600;
+        width: 60%;
+    }
+    
+    #page25>#center25>#left25{
+        padding-left: 8vw;
+        padding-top: 12vw;
+    }
+
+
+    #page26>#center26{
+        position: relative;
+        height: 95%;
+        width: 90%;
+        background-color: #f5f5f7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #page26>#center26>h1{
+        font-size: 4vw;
+        width: 50%;
+        line-height: 1;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    
+    #page26>#center26>p{
+        font-size: 2.8vw;
+        width: 55%;
+    
+    }
+    
+    #page26>#center26>a{
+        color: rgb(84, 84, 173);
+        margin-top: 3vw;
+        text-decoration: none;
+        font-size: 2.8vw;
+    }
+
+
+
+    #page27>p{
+        width: 20%;
+        height: 20%;
+        color: rgba(124, 122, 122, 0.78);
+        font-size: 2vw;
+    }
+    
+    #page27>#lower>p{
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+    }
+    
+#page27{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
 }
